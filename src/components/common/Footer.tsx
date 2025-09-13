@@ -57,19 +57,19 @@ const Footer: React.FC = () => {
                 Follow Us
               </h3>
               <div className="flex items-center gap-3 mb-4 sm:mb-6 md:mb-8">
-                <Link href="#" className="hover:opacity-75 transition-opacity">
+                <Link href="https://www.facebook.com/blockverseseries/" className="hover:opacity-75 transition-opacity">
                   <Image
                     src="/images/img_text.svg"
-                    alt="Social media 1"
+                    alt="Facebook"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="#" className="hover:opacity-75 transition-opacity">
+                <Link href="http://t.me/blockverseseries" className="hover:opacity-75 transition-opacity">
                   <Image
-                    src="/images/img_text_blue_gray_300.svg"
-                    alt="Social media 2"
+                    src="/images/telegram.svg"
+                    alt="Telegram"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
