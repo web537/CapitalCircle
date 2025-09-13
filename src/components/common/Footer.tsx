@@ -35,6 +35,7 @@ const Footer: React.FC = () => {
                 Contact
               </h3>
               <div className="flex items-center gap-2 mb-4 sm:mb-6 md:mb-8">
+              <Link href='/'>
                 <Image
                   src="/images/img_margin.svg"
                   alt="Email icon"
@@ -42,6 +43,7 @@ const Footer: React.FC = () => {
                   height={16}
                   className="w-[14px] h-[10px] sm:w-[18px] sm:h-[12px] md:w-[24px] md:h-[16px]"
                 />
+                </Link>
                 <Link 
                   href="mailto:contact@thecapitalcircle.org"
                   className="text-[10px] sm:text-[12px] md:text-[16px] font-poppins font-normal text-footer-1 hover:text-global-5 transition-colors"
@@ -57,7 +59,7 @@ const Footer: React.FC = () => {
                 Follow Us
               </h3>
               <div className="flex items-center gap-3 mb-4 sm:mb-6 md:mb-8">
-                <Link href="https://www.facebook.com/blockverseseries/" className="hover:opacity-75 transition-opacity">
+                <Link href="https://www.facebook.com/thecapitalcircle/" className="hover:opacity-75 transition-opacity">
                   <Image
                     src="/images/img_text.svg"
                     alt="Facebook"
@@ -66,7 +68,7 @@ const Footer: React.FC = () => {
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="http://t.me/blockverseseries" className="hover:opacity-75 transition-opacity">
+                <Link href="http://t.me/thecapitalcircleorg" className="hover:opacity-75 transition-opacity">
                   <Image
                     src="/images/telegram.svg"
                     alt="Telegram"
@@ -75,10 +77,10 @@ const Footer: React.FC = () => {
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="#" className="hover:opacity-75 transition-opacity">
+                <Link href="https://www.instagram.com/thecapitalcircleofficial/" className="hover:opacity-75 transition-opacity">
                   <Image
                     src="/images/img_text_blue_gray_300_32x20.svg"
-                    alt="Social media 3"
+                    alt="Instagram"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
