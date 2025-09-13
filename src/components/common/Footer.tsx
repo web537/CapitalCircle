@@ -84,10 +84,10 @@ const Footer: React.FC = () => {
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="#" className="hover:opacity-75 transition-opacity">
+                <Link href="https://x.com/TheCapitalCircl" className="hover:opacity-75 transition-opacity">
                   <Image
                     src="/images/img_link_margin.svg"
-                    alt="Social media 4"
+                    alt="Twitter X"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
