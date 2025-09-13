@@ -69,6 +69,7 @@ const HomePage: React.FC = () => {
                   Join the Circle
                 </Button>
                 </Link>
+                <Link href='https://lu.ma/thecapitalcircle_?k=c'>
                 <Button
                   variant="secondary"
                   size="lg"
@@ -76,6 +77,7 @@ const HomePage: React.FC = () => {
                 >
                   Become a Member
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
