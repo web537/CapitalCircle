@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-[9px] sm:gap-[13px] md:gap-[18px] justify-center items-center">
-                <Link href="/contact">
+                <Link href='https://lu.ma/thecapitalcircle_?k=c'>
                 <Button
                   variant="primary"
                   size="lg"
@@ -201,7 +201,8 @@ const HomePage: React.FC = () => {
               </div>
             </div>
               {/* Button */}
-              <Link href="/contact">
+              <Link href='https://lu.ma/thecapitalcircle_?k=c'>
+
               <Button
                 variant="primary"
                 size="lg"
@@ -292,7 +293,7 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               {/* Button */}
-              <Link href="/contact">
+              <Link href='https://lu.ma/thecapitalcircle_?k=c'>
               <Button
                 variant="primary"
                 size="lg"
