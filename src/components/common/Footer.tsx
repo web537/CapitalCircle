@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
                 </Link>
                 <Link href="http://t.me/thecapitalcircleorg" className="hover:opacity-75 transition-opacity">
                   <Image
-                    src="/images/telegram.svg"
+                    src="/images/telegram.png"
                     alt="Telegram"
                     width={20}
                     height={20}
