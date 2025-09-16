@@ -6,6 +6,8 @@ import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
 import Button from '@/components/ui/Button';
 import Link from "next/link";
+import { URLPattern } from 'next/server';
+import UpcomingEventsSection from './UpcomingEvents';
 
 const HomePage: React.FC = () => {
   return (
@@ -98,7 +100,7 @@ const HomePage: React.FC = () => {
               <div className="w-full flex flex-col lg:flex-row gap-[24px] sm:gap-[36px] md:gap-[48px] justify-start items-center">
                 <div className="w-full lg:w-[40%] flex flex-col justify-start items-center bg-[linear-gradient(41deg,#0a0a0a_0%,#1d3819_100%)] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] p-[13px] sm:p-[19px] md:p-[26px]">
                   <Image
-                    src="/images/img_rectangle_12.png"
+                    src="/images/vc-node-nights.avif"
                     alt="VC Node Nights 2024 event"
                     width={494}
                     height={498}
@@ -134,87 +136,7 @@ const HomePage: React.FC = () => {
           </div>
         </section>
         {/* Upcoming Events Section */}
-      <section id="ucoming-uvents" className="w-full bg-global-2 py-[30px] bg-[linear-gradient(318deg,#00000000_60%,#1d3819_100%)]">
-        <div className="relative w-full">
-          <div className="relative w-full max-w-[1560px] mx-auto px-4 sm:px-8 md:px-16 lg:px-24">
-            <div className="flex flex-col justify-start items-center">
-              <h2 className="text-[16px] sm:text-[24px] md:text-[32px] font-poppins font-medium leading-[21px] sm:leading-[31px] md:leading-[42px] text-center text-global-5">
-                Upcoming Events
-              </h2>
-
-            {/* Image grid */}
-            <div className="w-full flex flex-wrap justify-center items-center gap-[10px] mt-[30px]">
-              {/* Each image div */}
-              <div className="flex justify-center items-center bg-global-3 rounded-[8px] p-[20px] w-full sm:w-[48%] md:w-[30%] lg:w-[18%] h-[120px]">
-                <Image
-                  src="/images/img_bayer_jpg.png"
-                  alt="Event partner logo"
-                  width={216}
-                  height={34}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="flex justify-center items-center bg-global-3 rounded-[8px] p-[20px] w-full sm:w-[48%] md:w-[30%] lg:w-[18%] h-[120px]">
-                <Image
-                  src="/images/img_nouryion_jpg.png"
-                  alt="Event partner logo"
-                  width={194}
-                  height={82}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="flex justify-center items-center bg-global-3 rounded-[8px] p-[20px] w-full sm:w-[48%] md:w-[30%] lg:w-[18%] h-[120px]">
-                <Image
-                  src="/images/img_layer_1.svg"
-                  alt="Event partner logo"
-                  width={188}
-                  height={74}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="flex justify-center items-center bg-global-3 rounded-[8px] p-[20px] w-full sm:w-[48%] md:w-[30%] lg:w-[18%] h-[120px]">
-                <Image
-                  src="/images/img_frame_1000009759.svg"
-                  alt="Event partner logo"
-                  width={184}
-                  height={50}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="flex justify-center items-center bg-global-3 rounded-[8px] p-[20px] w-full sm:w-[48%] md:w-[30%] lg:w-[18%] h-[120px]">
-                <div className="flex gap-[10px] justify-center items-center w-full h-full">
-                  <Image
-                    src="/images/img_group_147.png"
-                    alt="Event partner logo"
-                    width={54}
-                    height={54}
-                    className="w-[50%] h-full object-contain"
-                  />
-                  <Image
-                    src="/images/img_group_155.svg"
-                    alt="Event partner logo"
-                    width={120}
-                    height={44}
-                    className="w-[50%] h-full object-contain"
-                  />
-                </div>
-              </div>
-            </div>
-              {/* Button */}
-              <Link href='https://lu.ma/thecapitalcircle_?k=c'>
-
-              <Button
-                variant="primary"
-                size="lg"
-                className="px-[17px] py-[8px] sm:px-[25px] sm:py-[12px] md:px-[34px] md:py-[16px] text-[9px] sm:text-[13px] md:text-[18px] font-poppins font-semibold leading-[14px] sm:leading-[20px] md:leading-[27px] text-center text-button-1 bg-button-2 rounded-[15px] sm:rounded-[22px] md:rounded-[30px] mt-[30px]"
-              >
-                Register here
-              </Button>
-            </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+        <UpcomingEventsSection />
         {/* About Us Section */}
       <section id="about-us" className="w-full bg-global-1 py-[25px] sm:py-[35px] md:py-[45px]">
         <div className="relative w-full">
@@ -380,63 +302,69 @@ const HomePage: React.FC = () => {
               </Link>
             </div>
           </section>
-        {/* Partners & Collaborators Section */}
-        <section id="partners" className="relative w-full bg-[linear-gradient(318deg,#00000000_60%,#1d3819_100%)]">
-        <div className="w-full max-w-[1240px] mx-auto px-[20px] sm:px-[30px] md:px-[40px] py-[40px] sm:py-[60px] md:py-[80px] flex flex-col gap-[20px] sm:gap-[30px] md:gap-[40px] items-center">
-          
-          {/* Main Heading */}
-          <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[1.3] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
-            Partners & Collaborators
-          </h2>
-
-          {/* Sub Heading */}
-          <h3 className="text-[16px] sm:text-[24px] md:text-[32px] font-poppins font-medium leading-[1.4] text-global-5 self-start">
-            Events & Conferences – GBS, GGS, SEABW
-          </h3>
-
-          {/* Images Grid */}
-          <div className="grid grid-cols-3 gap-[10px] sm:gap-[20px] md:gap-[30px] w-full">
+      {/* Partners & Collaborators Section */}
+        <section
+          id="partners"
+          className="w-full bg-[linear-gradient(318deg,#00000000_60%,#1d3819_100%)] py-[40px] sm:py-[60px] md:py-[80px] px-4 sm:px-6 md:px-10"
+        >
+          {/* Section Container */}
+          <div className="max-w-[1240px] mx-auto flex flex-col items-center gap-[20px] sm:gap-[30px] md:gap-[40px]">
             
-            <div className="w-full h-[200px] sm:h-[220px] md:h-[250px] rounded-[8px] overflow-hidden">
-              <Image
-                src="/images/img_frame_1321321350.png"
-                alt="Partner event 1"
-                width={474}
-                height={396}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            {/* Main Heading */}
+            <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[1.3] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
+              Partners & Collaborators
+            </h2>
 
-            <div className="w-full h-[200px] sm:h-[220px] md:h-[250px] rounded-[8px] overflow-hidden">
-              <Image
-                src="/images/img_frame_2055248470.png"
-                alt="Partner event 2"
-                width={474}
-                height={396}
-                className="w-full h-full object-cover"
-              />
+            {/* Logos Grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-5 md:gap-6 w-full">
+              
+              {/* Common Logo Wrapper Class */}
+              {[
+                {
+                  href: "https://globalaishow.com",
+                  src: "/images/GAIS.png",
+                  alt: "GAIS",
+                },
+                {
+                  href: "https://www.globalblockchainshow.com/",
+                  src: "/images/GBS.png",
+                  alt: "GBS",
+                },
+                {
+                  href: "https://www.coriniumintelligence.com/",
+                  src: "/images/Corinium.webp",
+                  alt: "Corinium",
+                },
+                {
+                  href: "https://re-work.co/",
+                  src: "/images/Rework.webp",
+                  alt: "Rework",
+                },
+                {
+                  href: "/",
+                  src: "/images/southeast-asia.png",
+                  alt: "Southeast Asia",
+                },
+              ].map((logo, idx) => (
+                <a
+                  key={idx}
+                  href={logo.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full h-[90px] sm:h-[240px] md:h-[90px] rounded-[10px] overflow-hidden bg-gradient-to-b from-[#fff] to-[#fff] flex items-center justify-center shadow-md"
+                >
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={200}
+                    height={200}
+                    className="w-[200px] h-[200px] object-contain"
+                  />
+                </a>
+              ))}
             </div>
-
-            <div
-              className="relative w-full h-[200px] sm:h-[220px] md:h-[250px] rounded-[8px] overflow-hidden flex justify-start items-end p-[12px] sm:p-[20px] md:p-[32px] bg-[linear-gradient(197deg,#00000000_0%,#000000bc_50%,#000000_100%)]"
-              style={{
-                backgroundImage: "url('/images/img_.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center"
-              }}
-            >
-              <Image
-                src="/images/img_ug6uujhnm587vszxxvi1oxzkl4.png"
-                alt="Partner logo"
-                width={232}
-                height={52}
-                className="w-[100px] sm:w-[160px] md:w-[232px] h-auto"
-              />
-            </div>
-
           </div>
-        </div>
-      </section>
+        </section>
       </div>
       {/* Footer */}
       <Footer />
