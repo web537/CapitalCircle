@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
                 </span>
               </div>
               <p className="text-[10px] sm:text-[12px] md:text-[16px] font-poppins font-normal leading-snug text-footer-1 mb-4 sm:mb-6 md:mb-8 max-w-[300px]">
-                Shaping the future of work through innovation and AI.
+              Your Gateway to AI, Capital, and Connections.
               </p>
             </div>
 
