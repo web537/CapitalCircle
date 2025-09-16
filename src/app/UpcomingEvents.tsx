@@ -66,7 +66,7 @@ const UpcomingEvents = () => {
        {/* Buttons Row */}
       <div className="mt-10 flex flex-col sm:flex-row gap-4">
         <a
-          href="https://your-register-link.com"
+          href="https://lu.ma/thecapitalcircle_?k=c"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"

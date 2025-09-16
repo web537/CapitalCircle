@@ -71,7 +71,7 @@ const HomePage: React.FC = () => {
                   Join the Circle
                 </Button>
                 </Link>
-                <Link href='https://lu.ma/thecapitalcircle_?k=c'>
+                <Link href='https://t.me/thecapitalcircleorg'>
                 <Button
                   variant="secondary"
                   size="lg"
@@ -291,7 +291,7 @@ const HomePage: React.FC = () => {
               </div>
 
               {/* Button */}
-              <Link href="/contact">
+              <Link href="https://luma.com/p9905tv6">
               <Button
                 variant="primary"
                 size="lg"
