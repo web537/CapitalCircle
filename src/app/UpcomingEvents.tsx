@@ -24,13 +24,7 @@ const upcomingEvents = [
     height: 240,
     link: "https://luma.com/p8cnllqc",
   },
-  {
-    name: "TheCapitalCircle_june",
-    src: "/images/TheCapitalCircle_june.png",
-    width: 340,
-    height: 240,
-    link: "https://luma.com/qz8dma2j",
-  },
+  
 ];
 
 const UpcomingEvents = () => {
@@ -40,12 +34,12 @@ const UpcomingEvents = () => {
       className="w-full px-4 py-12 flex flex-col items-center justify-center bg-gradient-to-br from-[#0a2c13] to-[#000000]"
     >
       {/* Title */}
-      <h2 className="text-white text-[24px] sm:text-[28px] lg:text-[32px] font-semibold mb-8 text-center">
+      <h2 className="text-white text-[24px] items-center justify-center sm:text-[28px] lg:text-[32px] font-semibold mb-8 text-center">
         Upcoming Events
       </h2>
 
       {/* Responsive Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-[1200px] w-full px-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full px-4">
         {upcomingEvents.map((event, index) => (
           <Link
             key={index}
