@@ -15,14 +15,14 @@ const upcomingEvents = [
     src: "/images/The11th_dec2025_CapitalCircle.png",
     width: 340,
     height: 240,
-    link: "https://lu.ma/aicapconnectabudhabi",
+    link: "https://lu.ma/m9le2iq6",
   },
   {
     name: "CapitalCircle_Riyadh_Luma",
     src: "/images/CapitalCircle_Riyadh_Luma.png",
     width: 340,
     height: 240,
-    link: "https://luma.com/qz8dma2j",
+    link: "https://luma.com/p8cnllqc",
   },
   {
     name: "TheCapitalCircle_june",
@@ -75,7 +75,7 @@ const UpcomingEvents = () => {
         </a>
 
         <a
-          href="https://lu.ma/thecapitalcircle_?k=c"
+          href="/contact"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
