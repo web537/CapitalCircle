@@ -8,6 +8,8 @@ import Button from '@/components/ui/Button';
 import Link from "next/link";
 import { URLPattern } from 'next/server';
 import UpcomingEventsSection from './UpcomingEvents';
+import MediaPertnersLogoSection from './MediaPertnersLogoSection';
+
 
 const HomePage: React.FC = () => {
   return (
@@ -366,6 +368,7 @@ const HomePage: React.FC = () => {
           </div>
         </section>
       </div>
+      <MediaPertnersLogoSection />
       {/* Footer */}
       <Footer />
     </div>
