@@ -29,11 +29,7 @@ const MediaPartnersLogoSection = () => {
       src: "/images/GTM-Labs-Logo-without-BG.png",
       alt: "GTM-Labs-Logo-without-BG",
     },
-    {
-      href: "https://www.alhudacibe.com/",
-      src: "/images/AlHuda-Logo.png",
-      alt: "AlHuda-Logo",
-    },
+    
    ];
 
   return (
