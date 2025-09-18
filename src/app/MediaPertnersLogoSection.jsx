@@ -19,6 +19,16 @@ const MediaPartnersLogoSection = () => {
       src: "/images/CryptoJist-Black-Transparent.png",
       alt: "CryptoJist-Black-Transparent",
     },
+    {
+      href: "http://www.coingabbar.com/",
+      src: "/images/Gabbar-logo-Dark-Background.png",
+      alt: "Gabbar-logo-Dark-Background",
+    },
+    {
+      href: "https://gtmlabs.xyz/",
+      src: "/images/GTM-Labs-Logo-without-BG.png",
+      alt: "GTM-Labs-Logo-without-BG",
+    },
    ];
 
   return (
