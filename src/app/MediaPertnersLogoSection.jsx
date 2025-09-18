@@ -47,7 +47,7 @@ const MediaPartnersLogoSection = () => {
             href={logo.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full h-[90px] sm:h-[240px] md:h-[90px] rounded-[10px] overflow-hidden bg-gradient-to-b from-[#fff] to-[#fff] flex items-center justify-center shadow-md"
+            className="block w-full h-[90px] sm:h-[240px] md:h-[90px] rounded-[10px] overflow-hidden flex items-center justify-center shadow-md"
           >
             <Image
               src={logo.src}
