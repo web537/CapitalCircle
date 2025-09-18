@@ -310,7 +310,7 @@ const HomePage: React.FC = () => {
           className="w-full bg-[linear-gradient(318deg,#00000000_60%,#1d3819_100%)] py-[40px] sm:py-[60px] md:py-[80px] px-4 sm:px-6 md:px-10"
         >
           {/* Section Container */}
-          <div className="max-w-[1240px] mx-auto flex flex-col items-center gap-[20px] sm:gap-[30px] md:gap-[40px]">
+          <div className="max-w-[1140px] mx-auto flex flex-col items-center gap-[20px] sm:gap-[30px] md:gap-[40px]">
             
             {/* Main Heading */}
             <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[1.3] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
