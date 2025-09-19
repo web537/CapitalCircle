@@ -9,6 +9,8 @@ import Link from "next/link";
 import { URLPattern } from 'next/server';
 import UpcomingEventsSection from './UpcomingEvents';
 import MediaPertnersLogoSection from './MediaPertnersLogoSection';
+import SpeakerSection from './SpeakerSection';
+
 
 
 const HomePage: React.FC = () => {
@@ -139,6 +141,9 @@ const HomePage: React.FC = () => {
         </section>
         {/* Upcoming Events Section */}
         <UpcomingEventsSection />
+        
+        {/* speakers section */}
+        <SpeakerSection />
         {/* About Us Section */}
       <section id="about-us" className="w-full bg-global-1 py-[25px] sm:py-[35px] md:py-[45px]">
         <div className="relative w-full">
@@ -233,9 +238,9 @@ const HomePage: React.FC = () => {
         {/* Community & Membership Section */}
           <section className="w-full bg-global-1 py-[30px] sm:py-[30px] md:py-[30px] px-[20px] sm:px-[42px] md:px-[56px]">
             <div className="w-full max-w-[1240px] mx-auto flex flex-col gap-[30px] justify-center items-center">
-              <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[18px] sm:leading-[27px] md:leading-[36px] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent w-full">
-                Community & Membership
-              </h2>
+              <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[1.3] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
+              Community & Membership
+            </h2>
 
               {/* Cards wrapper */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] sm:gap-[30px] md:gap-[42px] w-full">
