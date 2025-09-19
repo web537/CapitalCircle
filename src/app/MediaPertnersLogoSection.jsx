@@ -29,7 +29,51 @@ const MediaPartnersLogoSection = () => {
       src: "/images/GTM-Labs-Logo-without-BG.png",
       alt: "GTM-Labs-Logo-without-BG",
     },
-    
+    {
+      href: "https://coinpedia.org/",
+      src: "/images/Coinpedia-Fintech-News-Blue-Logo.webp",
+      alt: "coinpedia",
+    },
+    {
+      href: "https://www.thecoinrepublic.com/",
+      src: "/images/The-coin-Republic.webp",
+      alt: "The-coin-Republic",
+    },
+    {
+      href: "https://www.cryptopolitan.com/",
+      src: "/images/Dark_CP_Logotype.png",
+      alt: "Dark_CP_Logotype",
+    },
+    {
+      href: "https://voiceofcrypto.online/",
+      src: "/images/voice-of-crypto.webp",
+      alt: "voice-of-crypto",
+    },
+    {
+      href: "https://coinscapture.com/",
+      src: "/images/coinscapture.webp",
+      alt: "coinscapture",
+    },
+    {
+      href: "https://web3wire.org/",
+      src: "/images/Web3Wire-Logo.png",
+      alt: "Web3Wire-Logo",
+    },
+    {
+      href: "https://www.cioreview.com/",
+      src: "/images/cio-review.webp",
+      alt: "cio-review",
+    },
+    {
+      href: "https://intlbm.com/",
+      src: "/images/international-bussiness-magazine.webp",
+      alt: "international-bussiness-magazine",
+    },
+    {
+      href: "https://www.edarabia.com/",
+      src: "/images/edarabia-logo.webp",
+      alt: "edarabia",
+    },
    ];
 
   return (
