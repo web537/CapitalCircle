@@ -74,6 +74,11 @@ const MediaPartnersLogoSection = () => {
       src: "/images/edarabia-logo.webp",
       alt: "edarabia",
     },
+    {
+      href: "https://www.aitimejournal.com/",
+      src: "/images/aitimejournal-w.jpg",
+      alt: "aitimejournal",
+    },
    ];
 
   return (
