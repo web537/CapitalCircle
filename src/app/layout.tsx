@@ -7,11 +7,23 @@ export const viewport = {
 };
 
 export const metadata = {
-  title: 'The Capital Circle',
-  description: 'Here is evrything you want',
+  // title: 'The Capital Circle',
+  // description: 'Here is evrything you want',
   icons: {
     icon: [
       { url: '/images/img_group.png', type: 'png' }
+    ],
+  },
+  openGraph: {
+    title: 'The Capital Circle',
+    description: 'Connect with cutting-edge AI investment opportunities.',
+    images: [
+      {
+        url: '/images/The-Capital-Circle-OG.png',
+        width: 1200,
+        height: 630,
+        alt: 'The-Capital-Circle-OG',
+      },
     ],
   },
 };

@@ -79,6 +79,11 @@ const MediaPartnersLogoSection = () => {
       src: "/images/aitimejournal-w.jpg",
       alt: "aitimejournal",
     },
+    {
+      href: "https://www.3versetv.com/",
+      src: "/images/3versetv.jpg",
+      alt: "3versetv",
+    },
    ];
 
   return (
