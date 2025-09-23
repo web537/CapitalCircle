@@ -28,7 +28,7 @@ export const metadata = {
 ],
  type: 'website',
     locale: 'en_US',
-    siteName: 'The Algorithm Alliance',
+    siteName: 'The Capital Circle',
     url: 'https://www.thecapitalcircle.org/', 
 
   },
