@@ -17,14 +17,16 @@ export const metadata = {
   openGraph: {
     title: 'The Capital Circle',
     description: 'Connect with cutting-edge AI investment opportunities.',
+    
     images: [
-      {
-        url: '/images/The-Capital-Circle-OG.png',
-        width: 1200,
-        height: 630,
-        alt: 'The-Capital-Circle-OG',
-      },
-    ],
+  {
+    url: 'https://yourdomain.com/images/The-Capital-Circle-OG.png',
+    width: 1200,
+    height: 630,
+    alt: 'The-Capital-Circle-OG',
+  },
+],
+
   },
 };
 
