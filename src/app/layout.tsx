@@ -20,7 +20,7 @@ export const metadata = {
     
     images: [
   {
-    url: 'https://yourdomain.com/images/The-Capital-Circle-OG.png',
+    url: 'https://www.thecapitalcircle.org/images/The-Capital-Circle-OG.png',
     width: 1200,
     height: 630,
     alt: 'The-Capital-Circle-OG',
