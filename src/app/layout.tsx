@@ -26,6 +26,10 @@ export const metadata = {
     alt: 'The-Capital-Circle-OG',
   },
 ],
+ type: 'website',
+    locale: 'en_US',
+    siteName: 'The Algorithm Alliance',
+    url: 'https://www.thecapitalcircle.org/', 
 
   },
 };
