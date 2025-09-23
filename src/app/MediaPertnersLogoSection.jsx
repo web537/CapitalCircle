@@ -31,7 +31,7 @@ const MediaPartnersLogoSection = () => {
     },
     {
       alt: "Cryptomoonpress",
-      src: "/images/Cryptomoonpress-white.png",
+      src: "/images/CryptomoonpressWhite.png",
       link: "https://cryptomoonpress.com/",
     },
     {
