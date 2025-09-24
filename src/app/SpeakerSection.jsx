@@ -3,25 +3,32 @@ import Image from 'next/image';
 
 const speakers = [
   {
-    name: "Andy Ting",
-    designation: "Founder",
-    company: "HeLa Labs",
-    imageSrc: "/images/speakers/andy-ting.jpg",
-    alt: "Andy-Ting",
+    name: "Aly Madhavji",
+    designation: "Managing Partner",
+    company: "Blockchain Founders Fund",
+    imageSrc: "/images/speakers/Aly.webp",
+    alt: "Aly",
+  },
+  {
+    name: "Vineet Budki",
+    designation: " Partner & CEO",
+    company: " Sigma Capital Limited",
+    imageSrc: "/images/speakers/Vineet.webp",
+    alt: "Vineet",
+  },
+  {
+    name: "Luchang Z",
+    designation: "Founding Partner",
+    company: "Arcanum Capital",
+    imageSrc: "/images/speakers/Luchang.webp",
+    alt: "Luchang",
   },
   {
     name: "Laura K. Inamedinova",
     designation: "Cheif Ecosystem Officer",
     company: "Gate ecosystem / GVC",
     imageSrc: "/images/speakers/Laura.jpg",
-    alt: "Laura-K-Inamedinova",
-  },
-   {
-    name: "Henry Mcphie",
-    designation: "Co-Founder & CEO",
-    company: "Streamex",
-    imageSrc: "/images/speakers/Henry-Mcphie.png",
-    alt: "Henry-Mcphie",
+    alt: "Laura",
   },
    
 ];
