@@ -29,11 +29,7 @@ const PartnersCollaborators = () => {
                   src: "/images/southeast-asia.png",
                   alt: "Southeast Asia",
                 },
-                 {
-                href: "https://www.3versetv.com/",
-                src: "/images/3versetv.jpg",
-                alt: "3versetv",
-              },
+                
   ];
 
   return (
