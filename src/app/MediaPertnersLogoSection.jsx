@@ -119,6 +119,11 @@ const MediaPartnersLogoSection = () => {
       src: "/images/3versetv.jpg",
       alt: "3versetv",
     },
+    {
+    alt: "zexprwire-logo",
+    src: "/images/zexprwire-logo.webp",
+    link: "https://zexprwire.com/",
+  },
    ];
 
   return (
