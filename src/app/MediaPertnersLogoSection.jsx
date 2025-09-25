@@ -124,7 +124,97 @@ const MediaPartnersLogoSection = () => {
     src: "/images/zexprwire-logo.webp",
     link: "https://zexprwire.com/",
   },
-   ];
+  {
+    alt: "coin-edition",
+    src: "/images/coin-edition.webp",
+    link: "https://coinedition.com/",
+  },
+  {
+    alt: "cryptoken-media-logo",
+    src: "/images/cryptoken-media-logo.webp",
+    link: "https://cryptoken.media",
+  },
+  {
+    alt: "cryptobrowser",
+    src: "/images/cryptobrowser.png",
+    link: "https://cryptobrowser.io/",
+  },
+  {
+      src: '/images/smartmoneymatch.jpg',
+      name: 'smartmoneymatch',
+      link: 'https://www.smartmoneymatch.com/',
+    },
+    {
+      src: '/images/transport-stake-logo.webp',
+      name: 'transport-stake-logo',
+      link: 'https://www.transportstake.com/',
+    },{
+      src: '/images/publicity-marketplace.webp',
+      name: 'publicity-marketplace',
+      link: 'https://www.publicitymarketplace.com/',
+    },{
+      src: '/images/functionalsourcing.jpg',
+      name: 'functionalsourcing',
+      link: 'https://www.functionalsourcing.com/',
+    },{
+      src: '/images/matchsdg.png',
+      name: 'match-sdg-logo',
+      link: 'https://www.matchsdg.com/',
+    },
+    {
+      src: '/images/messtori.png',
+      name: 'messtori',
+      link: 'https://messtori.com/blockchain/',
+    },{
+      src: '/images/CMO-Intern-logo.webp',
+      name: 'CMO-Intern-logo',
+      link: 'https://www.cmointern.com/',
+    },{
+      src: '/images/logofintech24h-logo.png',
+      name: 'logofintech24h-logo',
+      link: 'https://fintech24h.com/',
+    },{
+      src: '/images/AIPressRoom-logo.webp',
+      name: 'AIPressRoom-logo',
+      link: 'http://aipressroom.com',
+    },
+    {
+      src: '/images/vitaminai-logo.webp',
+      name: 'vitaminai-logo',
+      link: 'https://vitaminai.online/',
+    },
+     {
+      src: '/images/coinlytix-logo.webp',
+      name: 'coinlytix-logo',
+      link: 'hhttps://coinlytx.com/',
+    },
+    {
+      src: '/images/btc-wire.webp',
+      name: 'btc-wire',
+      link: 'https://btcwire.io/',
+    },
+    {
+      src: '/images/CMO-Intern-logo.webp',
+      name: 'cmointern',
+      link: 'https://www.cmointern.com/',
+    },
+    {
+      src: '/images/Golden_sea.webp',
+      name: 'Golden_sea',
+      link: 'https://goldenseastudios.com/',
+    },
+    {
+      src: '/images/education-stake-logo.png',
+      name: 'education-stake-logo',
+      link: 'https://www.educationstake.com/',
+    },
+    {
+      src: '/images/finalcialservice-review.png',
+      name: 'finalcialservice-review',
+      link: 'hhttps://www.financialservicesreview.com/',
+    },
+  ];
+
 
   return (
     <div className="max-w-[1240px] mx-auto flex flex-col items-center gap-[20px] sm:gap-[30px] md:gap-[40px] px-3">
