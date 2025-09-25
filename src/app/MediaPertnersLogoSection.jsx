@@ -7,37 +7,37 @@ const MediaPartnersLogoSection = () => {
      {
       alt: "Cryptonewsz",
       src: "/images/Cryptonewsz.png",
-      link: "https://www.cryptonewsz.com/",
+      href: "https://www.cryptonewsz.com/",
     },
     {
       alt: "NameCoinNews",
       src: "/images/NameCoinNews-White.png",
-      link: "https://www.namecoinnews.com/",
+      href: "https://www.namecoinnews.com/",
     },
     {
       alt: "Times-OF-Blockchain",
       src: "/images/TimesofBlockchainLogo.png",
-      link: "https://www.timesofblockchain.com/",
+      href: "https://www.timesofblockchain.com/",
     },
    {
       alt: "timesofai",
       src: "/images/Timesofai-logo_white.png",
-      link: "https://www.timesofai.com/",
+      href: "https://www.timesofai.com/",
     },
     {
       alt: "Coinnewsspan",
       src: "/images/Coinnewsspan-White.png",
-      link: "https://Coinnewsspan.com/",
+      href: "https://Coinnewsspan.com/",
     },
     {
       alt: "Cryptomoonpress",
       src: "/images/CryptomoonpressWhite.png",
-      link: "https://cryptomoonpress.com/",
+      href: "https://cryptomoonpress.com/",
     },
     {
       alt: "CapitalBayLogo",
       src: "/images/CapitalbayNews.png",
-      link: "https://www.capitalbay.news/",
+      href: "https://www.capitalbay.news/",
     },
     {
       href: "hhttps://allconferencealert.net/",
