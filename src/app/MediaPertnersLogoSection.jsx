@@ -218,6 +218,7 @@ const MediaPartnersLogoSection = () => {
       name: 'themarketperiodical',
       link: 'https://themarketperiodical.com/',
     },
+    
   ];
 
 

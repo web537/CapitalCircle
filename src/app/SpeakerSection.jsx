@@ -47,11 +47,11 @@ const SpeakerSection = () => {
         {/* Speaker List Box */}
         <div className="w-full  max-w-[1200px] mx-auto">
           {/* Mobile gap-5 and larger screens gap-2 */}
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 sm:gap-2 place-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-2 place-items-center">
             {speakers.map((speaker, index) => (
               <div key={index} className="flex flex-col items-center">
                 {/* Adjusted Image Container for smaller mobile sizes */}
-                <div className="w-[120px] h-[120px] sm:w-[200px] sm:h-[200px] relative mb-4">
+                <div className="w-[120px] h-[120px] sm:w-[250px] sm:h-[250px] relative mb-4">
                   <Image
                     src={speaker.imageSrc}
                     alt={speaker.alt}
