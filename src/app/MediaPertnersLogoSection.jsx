@@ -213,7 +213,13 @@ const MediaPartnersLogoSection = () => {
       name: 'finalcialservice-review',
       link: 'hhttps://www.financialservicesreview.com/',
     },
+    {
+      src: '/images/TMP-LOGO.webp',
+      name: 'themarketperiodical',
+      link: 'https://themarketperiodical.com/',
+    },
   ];
+
 
 
   return (
