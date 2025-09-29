@@ -218,6 +218,11 @@ const MediaPartnersLogoSection = () => {
       name: 'themarketperiodical',
       link: 'https://themarketperiodical.com/',
     },
+     {
+      src: '/images/crypto-news.png',
+      name: 'crypto-news',
+      link: 'https://crypto.news/',
+    },
     
   ];
 
