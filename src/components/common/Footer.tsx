@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="https://x.com/TheCapitalCircl" className="hover:opacity-75 transition-opacity" target="_blank"
+                <Link href="https://x.com/0xCapitalCircle" className="hover:opacity-75 transition-opacity" target="_blank"
                   rel="noopener noreferrer nofollow">
                   <Image
                     src="/images/img_link_margin.svg"
