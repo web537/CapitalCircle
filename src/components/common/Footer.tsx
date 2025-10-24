@@ -18,6 +18,7 @@ const Footer: React.FC = () => {
                   alt="The Capital Circle Logo"
                   width={48}
                   height={48}
+                  unoptimized
                   className="w-[28px] h-[28px] sm:w-[36px] sm:h-[36px] md:w-[48px] md:h-[48px]"
                 />
                 <span className="text-[12px] sm:text-[14px] md:text-[18px] font-figtree font-extrabold uppercase text-global-5">
@@ -31,9 +32,9 @@ const Footer: React.FC = () => {
 
             {/* Contact Section */}
             <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 w-full lg:w-auto">
-              <h3 className="text-[12px] sm:text-[14px] md:text-[18px] font-poppins font-semibold text-global-5">
+              <p className="text-[12px] sm:text-[14px] md:text-[18px] font-poppins font-semibold text-global-5">
                 Contact
-              </h3>
+              </p>
               <div className="flex items-center gap-2 mb-4 sm:mb-6 md:mb-8">
               <Link href='/'>
                 <Image
@@ -41,6 +42,7 @@ const Footer: React.FC = () => {
                   alt="Email icon"
                   width={24}
                   height={16}
+                  unoptimized
                   className="w-[14px] h-[10px] sm:w-[18px] sm:h-[12px] md:w-[24px] md:h-[16px]"
                 />
                 </Link>
@@ -55,43 +57,51 @@ const Footer: React.FC = () => {
 
             {/* Social Media Section */}
             <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 w-full lg:w-auto">
-              <h3 className="text-[12px] sm:text-[14px] md:text-[18px] font-poppins font-semibold text-global-5">
+              <p className="text-[12px] sm:text-[14px] md:text-[18px] font-poppins font-semibold text-global-5">
                 Follow Us
-              </h3>
+              </p>
               <div className="flex items-center gap-3 mb-4 sm:mb-6 md:mb-8">
-                <Link href="https://www.facebook.com/thecapitalcircle/" className="hover:opacity-75 transition-opacity">
+                <Link href="https://www.facebook.com/thecapitalcircle/" className="hover:opacity-75 transition-opacity" target="_blank"
+                  rel="noopener noreferrer nofollow">
                   <Image
                     src="/images/img_text.svg"
                     alt="Facebook"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
+                    unoptimized
                   />
                 </Link>
-                <Link href="http://t.me/thecapitalcircleorg" className="hover:opacity-75 transition-opacity">
+                <Link href="http://t.me/thecapitalcircleorg" className="hover:opacity-75 transition-opacity" target="_blank"
+                  rel="noopener noreferrer nofollow">
                   <Image
                     src="/images/telegram.png"
                     alt="Telegram"
                     width={20}
                     height={20}
+                    unoptimized
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="https://www.instagram.com/thecapitalcircleofficial/" className="hover:opacity-75 transition-opacity">
+                <Link href="https://www.instagram.com/thecapitalcircleofficial/" className="hover:opacity-75 transition-opacity" target="_blank"
+                  rel="noopener noreferrer nofollow">
                   <Image
                     src="/images/img_text_blue_gray_300_32x20.svg"
                     alt="Instagram"
                     width={20}
                     height={20}
+                    unoptimized
                     className="w-[20px] h-[20px]"
                   />
                 </Link>
-                <Link href="https://x.com/TheCapitalCircl" className="hover:opacity-75 transition-opacity">
+                <Link href="https://x.com/TheCapitalCircl" className="hover:opacity-75 transition-opacity" target="_blank"
+                  rel="noopener noreferrer nofollow">
                   <Image
                     src="/images/img_link_margin.svg"
                     alt="Twitter X"
                     width={20}
                     height={20}
+                    unoptimized
                     className="w-[20px] h-[20px]"
                   />
                 </Link>

@@ -45,12 +45,13 @@ const UpcomingEvents = () => {
             key={index}
             href={event.link}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
            >
             <Image
               src={event.src}
               alt={event.name}
               width={event.width}
+              unoptimized
               height={event.height}
             />
           </Link>
@@ -62,14 +63,14 @@ const UpcomingEvents = () => {
         <a
           href="https://lu.ma/thecapitalcircle_?k=c"
           target="_blank"
-          rel="noopener noreferrer"
+           rel="noopener noreferrer nofollow"
           className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
         >
           Register here
         </a>
 
         <a
-          href="/contact"
+          href="/contact/"
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"

@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  trailingSlash: true,
   productionBrowserSourceMaps: true,
   distDir: process.env.DIST_DIR || '.next',
   typescript: {

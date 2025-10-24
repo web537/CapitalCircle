@@ -243,7 +243,7 @@ const MediaPartnersLogoSection = () => {
             key={idx}
             href={logo.href}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreferrer nofollow"
             className="block w-full h-[90px] bg-gradient-to-br from-[#0a2c13] to-[#000000] sm:h-[240px] md:h-[90px] rounded-[10px] overflow-hidden flex items-center justify-center shadow-md p-4"
           >
             <Image
@@ -251,6 +251,7 @@ const MediaPartnersLogoSection = () => {
               alt={logo.alt}
               width={200}
               height={200}
+              unoptimized
               className="w-[200px] h-[80px] object-contain"
             />
           </a>

@@ -7,18 +7,24 @@ export const viewport = {
 };
 
 export const metadata = {
-  // title: 'The Capital Circle',
-  // description: 'Here is evrything you want',
+  title: 'The Capital Circle: Connecting Innovators & Entrepreneurs',
+  description: 'Join The Capital Circle, a platform for innovators, entrepreneurs, and investors. Explore opportunities, connect with thought leaders, and drive change.',
+
+  metadataBase: new URL('https://www.thecapitalcircle.org/'),
+  alternates: {
+    canonical: '/',
+  },
+
   icons: {
     icon: [
       { url: '/images/img_group.png', type: 'png' }
     ],
   },
   openGraph: {
-    title: 'The Capital Circle',
-    description: 'Connect with cutting-edge AI investment opportunities.',
+    title: 'The Capital Circle: Connecting Innovators & Entrepreneurs',
+    description: 'Join The Capital Circle, a platform for innovators, entrepreneurs, and investors. Explore opportunities, connect with thought leaders, and drive change.',
     
-    images: [
+  images: [
   {
     url: 'https://www.thecapitalcircle.org/images/The-Capital-Circle-OG.png',
     width: 1200,
@@ -42,6 +48,40 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://www.thecapitalcircle.org/",
+              "name": "The Capital Circle",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.thecapitalcircle.org/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "The Capital Circle",
+              "url": "https://www.thecapitalcircle.org/",
+              "logo": "https://www.thecapitalcircle.org/_next/image?url=%2Fimages%2Fimg_group.png&w=96&q=75&dpl=dpl_8vAPHffisikeAYULnLy8AWLohqMK",
+              "sameAs": [
+                "https://linkedin.com/company/thecapitalcircle",
+                "https://twitter.com/thecapitalcircle"
+              ]
+            })
+          }}
+        />
+      </head>
       <body>{children}<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fvishalsa5943back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
 </body>
     </html>

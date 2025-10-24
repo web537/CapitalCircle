@@ -39,6 +39,7 @@ const HomePage: React.FC = () => {
               src="/images/img_rectangle_7.png"
               alt="Hero background"
               fill
+              unoptimized
               className="object-cover"
               priority
             />
@@ -68,7 +69,8 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-[9px] sm:gap-[13px] md:gap-[18px] justify-center items-center">
-                <Link href='https://lu.ma/thecapitalcircle_?k=c'>
+                <Link href='https://lu.ma/thecapitalcircle_?k=c' target="_blank"
+                  rel="noopener noreferrer nofollow">
                 <Button
                   variant="primary"
                   size="lg"
@@ -77,7 +79,8 @@ const HomePage: React.FC = () => {
                   Join the Circle
                 </Button>
                 </Link>
-                <Link href='https://t.me/thecapitalcircleorg'>
+                <Link href='https://t.me/thecapitalcircleorg' target="_blank"
+                  rel="noopener noreferrer nofollow">
                 <Button
                   variant="secondary"
                   size="lg"
@@ -110,6 +113,7 @@ const HomePage: React.FC = () => {
                     alt="VC Node Nights 2024 event"
                     width={494}
                     height={498}
+                    unoptimized
                     className="w-full h-auto rounded-[4px] sm:rounded-[6px] md:rounded-[8px]"
                   />
                 </div>
@@ -166,6 +170,7 @@ const HomePage: React.FC = () => {
                       alt="About us image"
                       width={568}
                       height={496}
+                      unoptimized
                       className="w-full h-auto rounded-[4px] sm:rounded-[6px] md:rounded-[8px] mt-[20px] sm:mt-[32px] md:mt-[44px]"
                     />
                   </div>
@@ -198,6 +203,7 @@ const HomePage: React.FC = () => {
                       alt="Mission image"
                       width={612}
                       height={358}
+                      unoptimized
                       className="w-full h-auto rounded-[4px] sm:rounded-[6px] md:rounded-[8px] mr-[2px] sm:mr-[4px] md:mr-[6px]"
                     />
                   </div>
@@ -218,13 +224,15 @@ const HomePage: React.FC = () => {
                       alt="Vision image"
                       width={638}
                       height={358}
+                      unoptimized
                       className="w-full h-auto rounded-[4px] sm:rounded-[6px] md:rounded-[8px]"
                     />
                   </div>
                 </div>
               </div>
               {/* Button */}
-              <Link href='https://lu.ma/thecapitalcircle_?k=c'>
+              <Link href='https://lu.ma/thecapitalcircle_?k=c' target="_blank"
+                  rel="noopener noreferrer nofollow">
               <Button
                 variant="primary"
                 size="lg"
@@ -254,6 +262,7 @@ const HomePage: React.FC = () => {
                     alt="Networking icon"
                     width={74}
                     height={48}
+                    unoptimized
                     className="w-[37px] h-[24px] sm:w-[55px] sm:h-[36px] md:w-[74px] md:h-[48px]"
                   />
                   <h3 className="text-[14px] sm:text-[18px] md:text-[25px] font-poppins font-medium leading-[20px] sm:leading-[27px] md:leading-[37px] text-left text-global-5">
@@ -271,6 +280,7 @@ const HomePage: React.FC = () => {
                     alt="Events icon"
                     width={52}
                     height={48}
+                    unoptimized
                     className="w-[26px] h-[24px] sm:w-[39px] sm:h-[36px] md:w-[52px] md:h-[48px]"
                   />
                   <h3 className="text-[14px] sm:text-[18px] md:text-[25px] font-poppins font-medium leading-[20px] sm:leading-[27px] md:leading-[37px] text-left text-global-5">
@@ -288,6 +298,7 @@ const HomePage: React.FC = () => {
                     alt="Collaboration icon"
                     width={48}
                     height={48}
+                    unoptimized
                     className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] md:w-[48px] md:h-[48px]"
                   />
                   <h3 className="text-[14px] sm:text-[18px] md:text-[25px] font-poppins font-medium leading-[20px] sm:leading-[27px] md:leading-[37px] text-left text-global-5">
@@ -300,7 +311,7 @@ const HomePage: React.FC = () => {
               </div>
 
               {/* Button */}
-              <Link href="https://luma.com/p9905tv6">
+              <Link href="https://luma.com/p9905tv6" target="_blank" rel="noopener noreferrer nofollow">
               <Button
                 variant="primary"
                 size="lg"

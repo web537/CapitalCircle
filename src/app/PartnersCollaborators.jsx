@@ -50,7 +50,7 @@ const PartnersCollaborators = () => {
               key={idx}
               href={logo.href || logo.link} // ✅ Supports both "href" and "link"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
               className="block w-full h-[90px] sm:h-[150px] md:h-[100px] bg-white rounded-[10px] overflow-hidden flex items-center justify-center shadow-md p-4"
             >
               <Image
@@ -58,6 +58,7 @@ const PartnersCollaborators = () => {
                 alt={logo.alt}
                 width={200}
                 height={80}
+                unoptimized
                 className="w-[180px] h-[60px] object-contain"
               />
             </a>

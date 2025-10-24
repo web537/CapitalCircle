@@ -58,6 +58,7 @@ const SpeakerSection = () => {
                     layout="fill"
                     objectFit="cover"
                     className="rounded-full"
+                    unoptimized
                   />
                 </div>
                 <h3 className="bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent text-[13px] sm:text-[18px] font-semibold text-center mb-1">

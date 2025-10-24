@@ -41,9 +41,10 @@ const Header: React.FC = () => {
           >
             <Image
               src="/images/img_group.png"
-              alt="The Capital Circle Logo"
+              alt="The-Capital-Circle-Logo"
               width={38}
               height={38}
+              unoptimized
               className="w-[28px] h-[28px] sm:w-[38px] sm:h-[38px] md:w-[48px] md:h-[48px]"
             />
             <span className="text-[16px] sm:text-[12px] md:text-[16px] font-figtree font-extrabold leading-[8px] sm:leading-[12px] md:leading-[16px] text-left uppercase text-global-5">
@@ -90,7 +91,7 @@ const Header: React.FC = () => {
               ))}
             </nav>
 
-            <Link href="/contact" className="ml-[32px] sm:ml-[48px] md:ml-[64px]">
+            <Link href="/contact/" className="ml-[32px] sm:ml-[48px] md:ml-[64px]">
               <Button
                 variant="primary"
                 size="md"
