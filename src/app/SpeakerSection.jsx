@@ -27,8 +27,8 @@ const speakers = [
     name: "Laura K. Inamedinova",
     designation: "Cheif Ecosystem Officer",
     company: "Gate ecosystem / GVC",
-    imageSrc: "/images/speakers/Laura.jpg",
-    alt: "Laura",
+    imageSrc: "/images/speakers/laura.webp",
+    alt: "laura",
   },
    
 ];

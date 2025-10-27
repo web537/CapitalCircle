@@ -5,21 +5,21 @@ import Link from 'next/link';
 const upcomingEvents = [
   {
     name: "singapore",
-    src: "/images/The28SEPT_2025_Capital_Circle.png",
+    src: "/images/the28sept_2025_Capital_circle.webp",
     width: 340,
     height: 240,
     link: "https://luma.com/p9905tv6",
   },
   {
-    name: "The11th_dec2025_CapitalCircle",
-    src: "/images/The11th_dec2025_CapitalCircle.png",
+    name: "abu-dhabi-11th_dec2025_CapitalCircle.webp",
+    src: "/images/abu-dhabi-11th_dec2025_CapitalCircle.webp",
     width: 340,
     height: 240,
     link: "https://lu.ma/m9le2iq6",
   },
   {
-    name: "CapitalCircle_Riyadh_Luma",
-    src: "/images/CapitalCircle_Riyadh_Luma.png",
+    name: "capitalcircle_riyadh_luma",
+    src: "/images/capitalcircle_riyadh_luma.webp",
     width: 340,
     height: 240,
     link: "https://luma.com/p8cnllqc",

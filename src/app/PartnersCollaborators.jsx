@@ -6,13 +6,13 @@ const PartnersCollaborators = () => {
   const logos = [
     {
                   href: "https://globalaishow.com",
-                  src: "/images/GAIS.png",
-                  alt: "GAIS",
+                  src: "/images/gais.webp",
+                  alt: "gais",
                 },
                 {
                   href: "https://www.globalblockchainshow.com/",
-                  src: "/images/GBS.png",
-                  alt: "GBS",
+                  src: "/images/gbs.webp",
+                  alt: "gbs",
                 },
                 {
                   href: "https://www.coriniumintelligence.com/",
@@ -26,7 +26,7 @@ const PartnersCollaborators = () => {
                 },
                 {
                   href: "/",
-                  src: "/images/southeast-asia.png",
+                  src: "/images/southeast-asia.webp",
                   alt: "Southeast Asia",
                 },
                 

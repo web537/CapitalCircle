@@ -17,10 +17,10 @@ export const metadata: Metadata = {
       "Have questions? Reach out to The Capital Circle team for inquiries, partnership opportunities, or event details. We're here to help!",
         images: [
       {
-        url: 'https://www.thecapitalcircle.org/images/The-Capital-Circle-OG.png',
+        url: 'https://www.thecapitalcircle.org/images/the-capital-circle-og.webp',
         width: 1200,
         height: 630,
-        alt: 'The-Capital-Circle-OG',
+        alt: 'the-capital-circle-og',
       },
     ],
   },

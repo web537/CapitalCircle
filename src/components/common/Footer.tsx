@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 w-full lg:w-auto">
               <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
                 <Image
-                  src="/images/img_group.png"
-                  alt="The Capital Circle Logo"
+                  src="/images/site-logo.webp"
+                  alt="site-logo"
                   width={48}
                   height={48}
                   unoptimized
@@ -38,8 +38,8 @@ const Footer: React.FC = () => {
               <div className="flex items-center gap-2 mb-4 sm:mb-6 md:mb-8">
               <Link href='/'>
                 <Image
-                  src="/images/img_margin.svg"
-                  alt="Email icon"
+                  src="/images/mail-icon.svg"
+                  alt="mail-icon"
                   width={24}
                   height={16}
                   unoptimized
@@ -64,8 +64,8 @@ const Footer: React.FC = () => {
                 <Link href="https://www.facebook.com/thecapitalcircle/" className="hover:opacity-75 transition-opacity" target="_blank"
                   rel="noopener noreferrer nofollow">
                   <Image
-                    src="/images/img_text.svg"
-                    alt="Facebook"
+                    src="/images/facebook.svg"
+                    alt="facebook"
                     width={20}
                     height={20}
                     className="w-[20px] h-[20px]"
@@ -75,8 +75,8 @@ const Footer: React.FC = () => {
                 <Link href="http://t.me/thecapitalcircleorg" className="hover:opacity-75 transition-opacity" target="_blank"
                   rel="noopener noreferrer nofollow">
                   <Image
-                    src="/images/telegram.png"
-                    alt="Telegram"
+                    src="/images/telegram.webp"
+                    alt="telegram"
                     width={20}
                     height={20}
                     unoptimized
@@ -86,8 +86,8 @@ const Footer: React.FC = () => {
                 <Link href="https://www.instagram.com/thecapitalcircleofficial/" className="hover:opacity-75 transition-opacity" target="_blank"
                   rel="noopener noreferrer nofollow">
                   <Image
-                    src="/images/img_text_blue_gray_300_32x20.svg"
-                    alt="Instagram"
+                    src="/images/instagram.svg"
+                    alt="instagram"
                     width={20}
                     height={20}
                     unoptimized
@@ -97,8 +97,8 @@ const Footer: React.FC = () => {
                 <Link href="https://x.com/0xCapitalCircle" className="hover:opacity-75 transition-opacity" target="_blank"
                   rel="noopener noreferrer nofollow">
                   <Image
-                    src="/images/img_link_margin.svg"
-                    alt="Twitter X"
+                    src="/images/twitter-x.svg"
+                    alt="twitter-x"
                     width={20}
                     height={20}
                     unoptimized

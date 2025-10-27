@@ -40,8 +40,8 @@ const Header: React.FC = () => {
             className="flex items-center gap-[3px] sm:gap-[4px] md:gap-[6px] w-auto"
           >
             <Image
-              src="/images/img_group.png"
-              alt="The-Capital-Circle-Logo"
+              src="/images/site-logo.webp"
+              alt="site-logo"
               width={38}
               height={38}
               unoptimized

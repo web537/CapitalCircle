@@ -17,7 +17,7 @@ export const metadata = {
 
   icons: {
     icon: [
-      { url: '/images/img_group.png', type: 'png' }
+      { url: '/images/site-logo.webp', type: 'webp' }
     ],
   },
   openGraph: {
@@ -26,10 +26,10 @@ export const metadata = {
     
   images: [
   {
-    url: 'https://www.thecapitalcircle.org/images/The-Capital-Circle-OG.png',
+    url: 'https://www.thecapitalcircle.org/images/the-capital-circle-og.webp',
     width: 1200,
     height: 630,
-    alt: 'The-Capital-Circle-OG',
+    alt: 'the-capital-circle-og',
   },
 ],
  type: 'website',
@@ -73,7 +73,7 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "The Capital Circle",
               "url": "https://www.thecapitalcircle.org/",
-              "logo": "https://www.thecapitalcircle.org/_next/image?url=%2Fimages%2Fimg_group.png&w=96&q=75&dpl=dpl_8vAPHffisikeAYULnLy8AWLohqMK",
+              "logo": "https://www.thecapitalcircle.org/_next/image?url=%2Fimages%2Fsite-logo.webp&w=96&q=75&dpl=dpl_8vAPHffisikeAYULnLy8AWLohqMK",
               "sameAs": [
                 "https://linkedin.com/company/thecapitalcircle",
                 "https://twitter.com/thecapitalcircle"

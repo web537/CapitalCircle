@@ -6,62 +6,62 @@ const MediaPartnersLogoSection = () => {
   const logos = [
      {
       alt: "Cryptonewsz",
-      src: "/images/Cryptonewsz.png",
+      src: "/images/Cryptonewsz.webp",
       href: "https://www.cryptonewsz.com/",
     },
     {
       alt: "NameCoinNews",
-      src: "/images/NameCoinNews-White.png",
+      src: "/images/NameCoinNews-White.webp",
       href: "https://www.namecoinnews.com/",
     },
     {
       alt: "Times-OF-Blockchain",
-      src: "/images/TimesofBlockchainLogo.png",
+      src: "/images/TimesofBlockchainLogo.webp",
       href: "https://www.timesofblockchain.com/",
     },
    {
       alt: "timesofai",
-      src: "/images/Timesofai-logo_white.png",
+      src: "/images/Timesofai-logo_white.webp",
       href: "https://www.timesofai.com/",
     },
     {
       alt: "Coinnewsspan",
-      src: "/images/Coinnewsspan-White.png",
+      src: "/images/Coinnewsspan-White.webp",
       href: "https://Coinnewsspan.com/",
     },
     {
       alt: "Cryptomoonpress",
-      src: "/images/CryptomoonpressWhite.png",
+      src: "/images/CryptomoonpressWhite.webp",
       href: "https://cryptomoonpress.com/",
     },
     {
       alt: "CapitalBayLogo",
-      src: "/images/CapitalbayNews.png",
+      src: "/images/CapitalbayNews.webp",
       href: "https://www.capitalbay.news/",
     },
     {
       href: "hhttps://allconferencealert.net/",
-      src: "/images/All-conference-alert.png",
+      src: "/images/All-conference-alert.webp",
       alt: "All-conference-alert",
     },
     {
       href: "https://www.alhudacibe.com/",
-      src: "/images/AlHuda-Logo.png",
+      src: "/images/AlHuda-logo.webp",
       alt: "AlHuda-Logo",
     },
     {
       href: "https://cryptojist.com/",
-      src: "/images/CryptoJist-Black-Transparent.png",
+      src: "/images/CryptoJist-Black-Transparent.webp",
       alt: "CryptoJist-Black-Transparent",
     },
     {
       href: "http://www.coingabbar.com/",
-      src: "/images/Gabbar-logo-Dark-Background.png",
-      alt: "Gabbar-logo-Dark-Background",
+      src: "/images/gabbar-logo-dark-background.webp",
+      alt: "gabbar-logo-dark-background",
     },
     {
       href: "https://gtmlabs.xyz/",
-      src: "/images/GTM-Labs-Logo-without-BG.png",
+      src: "/images/GTM-Labs-Logo-without-BG.webp",
       alt: "GTM-Labs-Logo-without-BG",
     },
     {
@@ -76,8 +76,8 @@ const MediaPartnersLogoSection = () => {
     },
     {
       href: "https://www.cryptopolitan.com/",
-      src: "/images/Dark_CP_Logotype.png",
-      alt: "Dark_CP_Logotype",
+      src: "/images/dark_cp_logotype.webp",
+      alt: "dark_cp_logotype",
     },
     {
       href: "https://voiceofcrypto.online/",
@@ -91,7 +91,7 @@ const MediaPartnersLogoSection = () => {
     },
     {
       href: "https://web3wire.org/",
-      src: "/images/Web3Wire-Logo.png",
+      src: "/images/Web3Wire-Logo.webp",
       alt: "Web3Wire-Logo",
     },
     {
@@ -111,12 +111,12 @@ const MediaPartnersLogoSection = () => {
     },
     {
       href: "https://www.aitimejournal.com/",
-      src: "/images/aitimejournal-w.jpg",
+      src: "/images/aitimejournal-w.webp",
       alt: "aitimejournal",
     },
     {
       href: "https://www.3versetv.com/",
-      src: "/images/3versetv.jpg",
+      src: "/images/3versetv.webp",
       alt: "3versetv",
     },
     {
@@ -136,11 +136,11 @@ const MediaPartnersLogoSection = () => {
   },
   {
     alt: "cryptobrowser",
-    src: "/images/cryptobrowser.png",
+    src: "/images/crypto-browser.svg",
     href: "https://cryptobrowser.io/",
   },
   {
-      src: '/images/smartmoneymatch.jpg',
+      src: '/images/smartmoneymatch.webp',
       alt: 'smartmoneymatch',
       href: 'https://www.smartmoneymatch.com/',
     },
@@ -153,16 +153,16 @@ const MediaPartnersLogoSection = () => {
       alt: 'publicity-marketplace',
       href: 'https://www.publicitymarketplace.com/',
     },{
-      src: '/images/functionalsourcing.jpg',
+      src: '/images/functionalsourcing.webp',
       alt: 'functionalsourcing',
       href: 'https://www.functionalsourcing.com/',
     },{
-      src: '/images/matchsdg.png',
+      src: '/images/matchsdg.webp',
       alt: 'match-sdg-logo',
       href: 'https://www.matchsdg.com/',
     },
     {
-      src: '/images/messtori.png',
+      src: '/images/messtori.webp',
       alt: 'messtori',
       href: 'https://messtori.com/blockchain/',
     },{
@@ -170,7 +170,7 @@ const MediaPartnersLogoSection = () => {
       alt: 'CMO-Intern-logo',
       href: 'https://www.cmointern.com/',
     },{
-      src: '/images/logofintech24h-logo.png',
+      src: '/images/logofintech24h-logo.webp',
       alt: 'logofintech24h-logo',
       href: 'https://fintech24h.com/',
     },{
@@ -199,12 +199,12 @@ const MediaPartnersLogoSection = () => {
       href: 'https://goldenseastudios.com/',
     },
     {
-      src: '/images/education-stake-logo.png',
+      src: '/images/education-stake-logo.webp',
       alt: 'education-stake-logo',
       href: 'https://www.educationstake.com/',
     },
     {
-      src: '/images/finalcialservice-review.png',
+      src: '/images/finalcialservice-review.webp',
       alt: 'finalcialservice-review',
       href: 'hhttps://www.financialservicesreview.com/',
     },
@@ -214,7 +214,7 @@ const MediaPartnersLogoSection = () => {
       href: 'https://themarketperiodical.com/',
     },
      {
-      src: '/images/crypto-news.png',
+      src: '/images/crypto-news.webp',
       alt: 'crypto-news',
       href: 'https://crypto.news/',
     },

@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
         <section 
           className="relative w-full bg-global-1"
           style={{
-            backgroundImage: "url('/images/img_unijpg_copy_2.png')",
+            backgroundImage: "url('/images/hero-bg.webp')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
@@ -36,24 +36,14 @@ const HomePage: React.FC = () => {
           {/* Hero Background Images */}
           <div className="relative w-full h-[403px] sm:h-[500px] md:h-[600px] lg:h-[506px]">
             <Image
-              src="/images/img_rectangle_7.png"
-              alt="Hero background"
+              src="/images/hero-banner-overlay.webp"
+              alt="hero-banner-overlay"
               fill
               unoptimized
               className="object-cover"
               priority
             />
-            {/* Ellipse overlay */}
-            <div className="absolute bottom-0 left-0 w-full flex justify-center items-end px-[28px] sm:px-[42px] md:px-[56px]">
-              <div className="relative w-full max-w-[681px] sm:max-w-[900px] md:max-w-[1350px] lg:max-w-[1362px] h-[218px] sm:h-[280px] md:h-[350px] lg:h-[436px] mt-[61px] sm:mt-[80px] md:mt-[100px] lg:mt-[122px]">
-                {/* <Image
-                  src="/images/img_ellipse_1.png"
-                  alt="Hero ellipse"
-                  fill
-                  className="object-cover"
-                /> */}
-              </div>
-            </div>
+            
             {/* Hero Content */}
             <div
             className="absolute inset-0 flex flex-col gap-[32px] sm:gap-[48px] md:gap-[64px] justify-start items-center px-[28px] sm:px-[42px] md:px-[56px] pt-[29px] sm:pt-[44px] md:pt-[58px] bg-[linear-gradient(to-bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.6)_100%)]"
@@ -109,8 +99,8 @@ const HomePage: React.FC = () => {
               <div className="w-full flex flex-col lg:flex-row gap-[24px] sm:gap-[36px] md:gap-[48px] justify-start items-center">
                 <div className="w-full lg:w-[40%] flex flex-col justify-start items-center bg-[linear-gradient(41deg,#0a0a0a_0%,#1d3819_100%)] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] p-[13px] sm:p-[19px] md:p-[26px]">
                   <Image
-                    src="/images/vc-node-nights.avif"
-                    alt="VC Node Nights 2024 event"
+                    src="/images/vc-node-nights.webp"
+                    alt="vc-node-nights"
                     width={494}
                     height={498}
                     unoptimized
@@ -166,8 +156,8 @@ const HomePage: React.FC = () => {
                 <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-[16px] bg-[linear-gradient(41deg,#0A0A0A_60%,#1d3819_100%)] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] p-[20px] sm:p-[30px] md:p-[40px]">
                   <div className="w-full lg:w-auto flex justify-center items-end bg-[linear-gradient(41deg,#0A0A0A_60%,#1d3819ad_100%)] rounded-[4px] sm:rounded-[6px] md:rounded-[8px] px-[20px] sm:px-[28px] md:px-[36px]">
                     <Image
-                      src="/images/img_rectangle_12_496x568.png"
-                      alt="About us image"
+                      src="/images/what-makes-capital-circle-unique.webp"
+                      alt="what-makes-capital-circle-unique"
                       width={568}
                       height={496}
                       unoptimized
@@ -199,8 +189,8 @@ const HomePage: React.FC = () => {
                       </p>
                     </div>
                     <Image
-                      src="/images/img_image_302.png"
-                      alt="Mission image"
+                      src="/images/ai-touch.webp"
+                      alt="ai-touch"
                       width={612}
                       height={358}
                       unoptimized
@@ -220,8 +210,8 @@ const HomePage: React.FC = () => {
                       </p>
                     </div>
                     <Image
-                      src="/images/img_image_302_358x638.png"
-                      alt="Vision image"
+                      src="/images/brainstorming.webp"
+                      alt="brainstorming"
                       width={638}
                       height={358}
                       unoptimized
@@ -258,8 +248,8 @@ const HomePage: React.FC = () => {
                 {/* Card 1 */}
                 <div className="flex flex-col gap-[12px] justify-start items-start bg-[linear-gradient(225deg,#1c3718_-52%,#0A0A0A_33%)] rounded-[10px] p-[20px] sm:p-[24px] md:p-[32px] shadow-[0px_5px_8px_#00000019] h-full">
                   <Image
-                    src="/images/img_vector.svg"
-                    alt="Networking icon"
+                    src="/images/networking-icon.svg"
+                    alt="networking-icon"
                     width={74}
                     height={48}
                     unoptimized
@@ -276,8 +266,8 @@ const HomePage: React.FC = () => {
                 {/* Card 2 */}
                 <div className="flex flex-col gap-[12px] justify-start items-start bg-[linear-gradient(225deg,#1c3718_-52%,#0A0A0A_33%)] rounded-[10px] p-[20px] sm:p-[24px] md:p-[32px] shadow-[0px_5px_8px_#00000019] h-full">
                   <Image
-                    src="/images/img_frame_2055248473.svg"
-                    alt="Events icon"
+                    src="/images/access-to-events.svg"
+                    alt="access-to-events"
                     width={52}
                     height={48}
                     unoptimized
@@ -294,8 +284,8 @@ const HomePage: React.FC = () => {
                 {/* Card 3 */}
                 <div className="flex flex-col gap-[12px] justify-start items-start bg-[linear-gradient(225deg,#1c3718_-52%,#0A0A0A_33%)] rounded-[10px] p-[20px] sm:p-[24px] md:p-[32px] shadow-[0px_5px_8px_#00000019] h-full">
                   <Image
-                    src="/images/img_frame_2055248472.svg"
-                    alt="Collaboration icon"
+                    src="/images/collaborators.svg"
+                    alt="collaborators"
                     width={48}
                     height={48}
                     unoptimized
