@@ -21,8 +21,8 @@ const PartnersCollaborators = () => {
                 },
                 {
                   href: "https://re-work.co/",
-                  src: "/images/Rework.webp",
-                  alt: "Rework",
+                  src: "/images/rework.webp",
+                  alt: "rework",
                 },
                 {
                   href: "/",

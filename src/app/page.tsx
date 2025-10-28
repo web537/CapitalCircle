@@ -11,6 +11,7 @@ import UpcomingEventsSection from './UpcomingEvents';
 import MediaPertnersLogoSection from './MediaPertnersLogoSection';
 import SpeakerSection from './SpeakerSection';
 import PartnersCollaborators from './PartnersCollaborators';
+import GallerySection from './GallerySection';
 
 
 
@@ -137,6 +138,9 @@ const HomePage: React.FC = () => {
         </section>
         {/* Upcoming Events Section */}
         <UpcomingEventsSection />
+
+        {/* event highlights */}
+        {/* <GallerySection /> */}
         
         {/* speakers section */}
         <SpeakerSection />

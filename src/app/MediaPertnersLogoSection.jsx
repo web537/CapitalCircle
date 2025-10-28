@@ -6,53 +6,53 @@ const MediaPartnersLogoSection = () => {
   const logos = [
      {
       alt: "Cryptonewsz",
-      src: "/images/Cryptonewsz.webp",
+      src: "/images/cryptonewsz.webp",
       href: "https://www.cryptonewsz.com/",
     },
     {
-      alt: "NameCoinNews",
-      src: "/images/NameCoinNews-White.webp",
+      alt: "namecoinnews",
+      src: "/images/namecoinnews.webp",
       href: "https://www.namecoinnews.com/",
     },
     {
-      alt: "Times-OF-Blockchain",
-      src: "/images/TimesofBlockchainLogo.webp",
+      alt: "timesofblockchainlogo",
+      src: "/images/timesofblockchainlogo.webp",
       href: "https://www.timesofblockchain.com/",
     },
    {
       alt: "timesofai",
-      src: "/images/Timesofai-logo_white.webp",
+      src: "/images/timesofai-logo.webp",
       href: "https://www.timesofai.com/",
     },
     {
       alt: "Coinnewsspan",
-      src: "/images/Coinnewsspan-White.webp",
+      src: "/images/coinnewsspan.webp",
       href: "https://Coinnewsspan.com/",
     },
     {
-      alt: "Cryptomoonpress",
-      src: "/images/CryptomoonpressWhite.webp",
+      alt: "cryptomoonpress",
+      src: "/images/cryptomoonpresswhite.webp",
       href: "https://cryptomoonpress.com/",
     },
     {
       alt: "CapitalBayLogo",
-      src: "/images/CapitalbayNews.webp",
+      src: "/images/capitalbaynews.webp",
       href: "https://www.capitalbay.news/",
     },
     {
       href: "hhttps://allconferencealert.net/",
-      src: "/images/All-conference-alert.webp",
+      src: "/images/all-conference-alert.webp",
       alt: "All-conference-alert",
     },
     {
       href: "https://www.alhudacibe.com/",
-      src: "/images/AlHuda-logo.webp",
-      alt: "AlHuda-Logo",
+      src: "/images/al-huda-logo.webp",
+      alt: "al-huda-logo",
     },
     {
       href: "https://cryptojist.com/",
-      src: "/images/CryptoJist-Black-Transparent.webp",
-      alt: "CryptoJist-Black-Transparent",
+      src: "/images/cryptoJist-black.webp",
+      alt: "cryptoJist-black",
     },
     {
       href: "http://www.coingabbar.com/",
@@ -61,12 +61,12 @@ const MediaPartnersLogoSection = () => {
     },
     {
       href: "https://gtmlabs.xyz/",
-      src: "/images/GTM-Labs-Logo-without-BG.webp",
-      alt: "GTM-Labs-Logo-without-BG",
+      src: "/images/gtm-labs-logo.webp",
+      alt: "gtm-labs-logo",
     },
     {
       href: "https://coinpedia.org/",
-      src: "/images/Coinpedia-Fintech-News-Blue-Logo.webp",
+      src: "/images/coinpedia-fintech-news-blue-logo.webp",
       alt: "coinpedia",
     },
     {
@@ -91,7 +91,7 @@ const MediaPartnersLogoSection = () => {
     },
     {
       href: "https://web3wire.org/",
-      src: "/images/Web3Wire-Logo.webp",
+      src: "/images/web3wire-logo.webp",
       alt: "Web3Wire-Logo",
     },
     {
@@ -166,7 +166,7 @@ const MediaPartnersLogoSection = () => {
       alt: 'messtori',
       href: 'https://messtori.com/blockchain/',
     },{
-      src: '/images/CMO-Intern-logo.webp',
+      src: '/images/cmo-intern-logo.webp',
       alt: 'CMO-Intern-logo',
       href: 'https://www.cmointern.com/',
     },{
@@ -174,8 +174,8 @@ const MediaPartnersLogoSection = () => {
       alt: 'logofintech24h-logo',
       href: 'https://fintech24h.com/',
     },{
-      src: '/images/AIPressRoom-logo.webp',
-      alt: 'AIPressRoom-logo',
+      src: '/images/ai-pressroom-logo.webp',
+      alt: 'ai-pressroom-logo',
       href: 'http://aipressroom.com',
     },
     {
@@ -209,7 +209,7 @@ const MediaPartnersLogoSection = () => {
       href: 'hhttps://www.financialservicesreview.com/',
     },
     {
-      src: '/images/TMP-LOGO.webp',
+      src: '/images/tmp-logo.webp',
       alt: 'themarketperiodical',
       href: 'https://themarketperiodical.com/',
     },
