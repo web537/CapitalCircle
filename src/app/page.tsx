@@ -85,7 +85,7 @@ const HomePage: React.FC = () => {
           </div>
         </section>
         {/* Events & Initiatives Section */}
-        <section id="events" className="w-full bg-global-1 py-[18px] sm:py-[27px] md:py-[36px] px-[18px] sm:px-[27px] md:px-[36px]">
+        {/* <section id="events" className="w-full bg-global-1 py-[18px] sm:py-[27px] md:py-[36px] px-[18px] sm:px-[27px] md:px-[36px]">
           <div className="w-full max-w-[1560px] mx-auto flex flex-col justify-start items-center">
             <h2 className="text-[24px] sm:text-[36px] md:text-[48px] font-poppins font-medium leading-[36px] sm:leading-[54px] md:leading-[72px] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
               Events & Initiatives
@@ -135,12 +135,12 @@ const HomePage: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Upcoming Events Section */}
         <UpcomingEventsSection />
 
         {/* event highlights */}
-        {/* <GallerySection /> */}
+        <GallerySection />
         
         {/* speakers section */}
         <SpeakerSection />

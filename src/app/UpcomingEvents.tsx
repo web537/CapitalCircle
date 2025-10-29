@@ -34,6 +34,13 @@ const pastEvents = [
     height: 240,
     link: "https://luma.com/p9905tv6",
   },
+  {
+    name: "vc-node-nights",
+    src: "/images/vc-node-nights.webp",
+    width: 340,
+    height: 240,
+    link: "#",
+  },
 ];
 
 const UpcomingEvents = () => {
@@ -43,12 +50,12 @@ const UpcomingEvents = () => {
       className="w-full px-4 py-12 flex flex-col items-center justify-center bg-gradient-to-br from-[#0a2c13] to-[#000000]"
     >
       {/* Title */}
-      <h2 className="text-center text-[24px] items-center justify-center sm:text-[28px] lg:text-[32px] font-semibold mb-8 text-center text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
+      <h2 className="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-semibold mb-8 bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
         Upcoming Events
       </h2>
-      
-      {/* Responsive Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full px-4">
+
+      {/* Upcoming Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full px-4 place-items-center">
         {upcomingEvents.map((event, index) => (
           <Link
             key={index}
@@ -88,13 +95,13 @@ const UpcomingEvents = () => {
         </a>
       </div>
 
-      {/* Past Events Section */}
-      <h2 className="text-center text-[24px] items-center justify-center sm:text-[28px] lg:text-[32px] font-semibold mb-8 text-center text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent mt-10"> 
+      {/* Past Events Title */}
+      <h2 className="text-center text-[24px] sm:text-[28px] lg:text-[32px] font-semibold mb-8 mt-10 bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
         Past Events
       </h2>
 
-      {/* Responsive Grid for Past Events */}
-      <div className="grid grid-cols-1 gap-6 max-w-[1200px] w-full px-4 justify-items-center">
+      {/* Past Events Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full px-4 place-items-center justify-center">
         {pastEvents.map((event, index) => (
           <Link
             key={index}

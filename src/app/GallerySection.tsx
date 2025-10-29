@@ -2,12 +2,18 @@
 import Image from 'next/image';
 
 const galleryImages = [
-  '/images/event-highlights/event.webp',
-  '/images/event-highlights/stage-image.webp',
-  '/images/event-highlights/discussion.webp',
-  '/images/event-highlights/with-mic.webp',
-  '/images/event-highlights/sitting-on-chair.webp',
-  '/images/event-highlights/speaker-on-stage.webp',
+  '/images/event-highlights/welcom.webp',
+  '/images/event-highlights/new-era.webp',
+  '/images/event-highlights/happy.webp',
+  '/images/event-highlights/netwoking.webp',
+  '/images/event-highlights/thought.webp',
+  '/images/event-highlights/selfie.webp',
+  '/images/event-highlights/discuss.webp',
+  '/images/event-highlights/exchnage.webp',
+  '/images/event-highlights/network.webp',
+  '/images/event-highlights/crowd.webp',
+  '/images/event-highlights/people.webp',
+  '/images/event-highlights/all-speaker.webp',
 ];
 
 export default function GallerySection() {
