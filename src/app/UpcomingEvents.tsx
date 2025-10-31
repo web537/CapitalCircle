@@ -29,7 +29,7 @@ const upcomingEvents = [
 const pastEvents = [
   {
     name: "singapore-event-capital-circle",
-    src: "/images/singapore-event-capital-circle.webp",
+    src: "/images/singapore-event.webp",
     width: 340,
     height: 240,
     link: "https://luma.com/p9905tv6",
@@ -46,7 +46,7 @@ const pastEvents = [
 const UpcomingEvents = () => {
   return (
     <section
-      id="upcoming-events"
+      id="events"
       className="w-full px-4 py-12 flex flex-col items-center justify-center bg-gradient-to-br from-[#0a2c13] to-[#000000]"
     >
       {/* Title */}

@@ -8,7 +8,7 @@ import Button from '@/components/ui/Button';
 import Link from "next/link";
 import { URLPattern } from 'next/server';
 import UpcomingEventsSection from './UpcomingEvents';
-import MediaPertnersLogoSection from './MediaPertnersLogoSection';
+import MediaPertnersLogoSection from './MediaPartnersLogoSection';
 import SpeakerSection from './SpeakerSection';
 import PartnersCollaborators from './PartnersCollaborators';
 import GallerySection from './GallerySection';
@@ -305,13 +305,13 @@ const HomePage: React.FC = () => {
               </div>
 
               {/* Button */}
-              <Link href="https://luma.com/p9905tv6" target="_blank" rel="noopener noreferrer nofollow">
+              <Link href="https://t.me/thecapitalcircleorg" target="_blank" rel="noopener noreferrer nofollow">
               <Button
                 variant="primary"
                 size="lg"
                 className="px-[16px] py-[8px] sm:px-[24px] sm:py-[12px] md:px-[32px] md:py-[16px] text-[9px] sm:text-[13px] md:text-[18px] font-poppins font-semibold leading-[14px] sm:leading-[20px] md:leading-[27px] text-center text-button-1 bg-button-2 rounded-[15px] sm:rounded-[22px] md:rounded-[30px] mt-[20px]"
               >
-                Join the Circle
+                Become a Member
               </Button>
               </Link>
             </div>

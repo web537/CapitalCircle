@@ -7,9 +7,11 @@ const galleryImages = [
   '/images/event-highlights/happy.webp',
   '/images/event-highlights/netwoking.webp',
   '/images/event-highlights/thought.webp',
-  '/images/event-highlights/selfie.webp',
+  // '/images/event-highlights/selfie.webp',
+  '/images/event-highlights/speaker-panel.webp',
   '/images/event-highlights/discuss.webp',
-  '/images/event-highlights/exchnage.webp',
+  // '/images/event-highlights/exchnage.webp',
+  '/images/event-highlights/speaker-speaking.webp',
   '/images/event-highlights/network.webp',
   '/images/event-highlights/crowd.webp',
   '/images/event-highlights/people.webp',
@@ -36,11 +38,12 @@ export default function GallerySection() {
               alt={`Gallery ${index + 1}`}
               width={500}
               height={500}
+              unoptimized
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
 
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 opacity-80 bg-gradient-to-br from-[#0a0a0a]/70 to-[#1d3819]/70 group-hover:opacity-0 transition-opacity duration-500" />
+            <div className="absolute inset-0 opacity-80 group-hover:opacity-0 transition-opacity duration-500" />
           </div>
         ))}
       </div>

@@ -228,7 +228,7 @@ const MediaPartnersLogoSection = () => {
       
       {/* Main Heading */}
       <h2 className="text-[18px] sm:text-[27px] md:text-[36px] font-poppins font-medium leading-[1.3] text-center bg-[linear-gradient(1deg,#17c64f_0%,#10b981_50%,#005529_100%)] bg-clip-text text-transparent">
-        Media Pertners
+        Media Partners
       </h2>
 
       {/* Logos Grid */}
