@@ -80,7 +80,7 @@ const UpcomingEvents = () => {
           href="https://lu.ma/thecapitalcircle_?k=c"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
+          className="capitalize px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
         >
           Register here
         </a>
@@ -89,7 +89,7 @@ const UpcomingEvents = () => {
           href="/contact/"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
+          className="capitalize px-8 py-3 bg-[#20c940] text-black font-semibold rounded-full hover:bg-[#1bb232] transition-colors text-center"
         >
           Apply to partner
         </a>
