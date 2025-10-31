@@ -16,7 +16,7 @@ const PartnersCollaborators = () => {
                 },
                 {
                   href: "https://www.coriniumintelligence.com/",
-                  src: "/images/Corinium.webp",
+                  src: "/images/corinium.webp",
                   alt: "Corinium",
                 },
                 {
